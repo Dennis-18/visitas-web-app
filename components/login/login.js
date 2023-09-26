@@ -16,7 +16,8 @@ export default function Login() {
                         <FormControl type="password" className="w-50 mb-4"/>
                         <span>Contraseña</span>
                         <FormControl type="password" className="w-50"/>
-                        <Button className="mt-4 w-50" onClick={async () => await router.push("dashboard") }>Ingresar</Button>
+                        <Button className="mt-4 w-50"
+                                onClick={async () => await router.push("dashboard")}>Ingresar</Button>
                     </Col>
                 </Row>
             </div>
